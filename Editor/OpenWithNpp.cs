@@ -15,7 +15,7 @@ public class OpenWithNpp : OpenWithMenuItem
 	[MenuItem(MenuItemPath, true)]
 	public static bool OpenValidation() { return Validate<OpenWithNpp>(); }
 	
-	[MenuItem(EditMenuItemPath, false, BasePriority + 100)]
+	[MenuItem(EditMenuItemPath, false, BasePriority + 1)]
 	public static void EditOpen() { Execute<OpenWithNpp>(); }
 
 	[MenuItem(EditMenuItemPath, true)]
