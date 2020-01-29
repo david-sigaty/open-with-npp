@@ -1,0 +1,16 @@
+{
+    "name": "TeamCitrus.OpenWithNpp",
+    "references": [
+        "GUID:4a1d485752e110a41b96be020eaf825b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
