@@ -9,13 +9,13 @@ public class OpenWithNpp : OpenWithMenuItem
 	private const string MenuItemPath = BasePath + Name;
 	private const string EditMenuItemPath = EditPath + Name;
 	
-	[MenuItem(MenuItemPath, false, BasePriority + 50)]
+	[MenuItem(MenuItemPath, false, BasePriority)]
 	public static void Open() { Execute<OpenWithNpp>(); }
 
 	[MenuItem(MenuItemPath, true)]
 	public static bool OpenValidation() { return Validate<OpenWithNpp>(); }
 	
-	[MenuItem(EditMenuItemPath, false, BasePriority + 1)]
+	[MenuItem(EditMenuItemPath, false, BasePriority + 100)]
 	public static void EditOpen() { Execute<OpenWithNpp>(); }
 
 	[MenuItem(EditMenuItemPath, true)]
